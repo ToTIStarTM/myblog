@@ -40,7 +40,7 @@ params:
   profileMode:
     enabled: true
     title: ToTIStar
-    imageUrl: "/images/175.png"
+    imageUrl: "/myblog/images/175.png"
     imageTitle: my image
     imageWidth: 120
     imageHeight: 120

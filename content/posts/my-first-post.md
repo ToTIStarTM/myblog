@@ -21,7 +21,7 @@ ShowRssButtonInSectionTermList: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:
-    image: "/images/1.jpg" # image path/url
+    image: "/myblog/images/1.jpg" # image path/url
     alt: "alt" # alt text
     caption: "一个好的博客应该需要有个二次元封面" # display caption under cover
     relative: true # when using page bundles set this to true

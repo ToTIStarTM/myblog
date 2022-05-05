@@ -1,0 +1,70 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: ToTISTar's Tiny Blog
+theme: "PaperMod"
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+minify:
+  disableXML: true
+  # minifyOutput: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+params:
+  # env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  # description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  # author: Theme PaperMod
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  # ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  # comments: false
+  # images: ["papermod-cover.png"]
+
+  profileMode:
+    enabled: true
+    title: ToTIStar
+    imageUrl: "/images/175.png"
+    imageTitle: my image
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+      - name: Search
+        url: search
+    fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
+  socialIcons:
+    - name: github
+      url: "https://github.com/ToTIStarTM"
+    - name: qq
+      url: "http://wpa.qq.com/msgrd?v=3&uin=374851448&site=qq&menu=yes"
+    - name: steam
+      url: "https://steamcommunity.com/id/ToTIStarTM/"
+
+
